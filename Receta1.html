@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Recepta de Lentejas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+    ol {
+            list-style: none;
+            counter-reset: item; 
+        }
+
+        ol li {
+            counter-increment: item; 
+            margin-bottom: 10px; 
+        }
+
+        ol li::before {
+            content: counter(item) ". ";
+            font-weight: bold; 
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: #ad3434;">Recepta de Lentejas de <a href="index.html">lista de recetas</a> hecha por Juan Miguel</h1>
+    <img src="lentejas1.jpg" alt="Lentejas" />
+
+    <h2>Indice</h2>
+    <ul>
+        <li class="clase"><a href="#Descripcion">Descripcion.</a></li>
+        <li class="clase"><a href="#Ingredientes">Ingredientes.</a></li>
+        <li class="clase"><a href="#Instrucciones">Instrucciones.</a></li>
+    </ul>
+
+    <h2 id="Descripcion">Descripcion.</h2>
+    <p> La lenteja es un tipo de legumbre formada por hidratos de carbono y proteínas, y también contiene una gran variedad de vitaminas y minerales. Por este motivo es considerada como un alimento de alto valor nutritivo.</p>
+    <h2 id="Ingredientes">Ingredients</h2>
+    <ul class="Ingredientes">
+        <li>400 g de lentejas.</li>
+        <li>1 patata grande.</li>
+        <li>2 zanahorias.</li>
+        <li>1 cebolla grande.</li>
+        <li>1 diente de ajo.</li>
+        <li>4 cucharadas de tomate triturado.</li>
+        <li>1/4 de pimiento rojo.</li>
+        <li>1 cuchara pequeña de pimenton ahumado.</li>
+        <li>1 cucharadita de comino.</li>
+        <li>1 hoja de laurel.</li>
+        <li>Aceite de oliva.</li>
+        <li>Pimienta negra.</li>
+        <li>Sal.</li>
+        <li>100 ml de vino blanco o de fino (opcional).</li>
+
+    </ul>
+
+    <h2 id="Instrucciones">Instrucciones.</h2>
+
+    <ol class="Instrucciones">
+        <li>Poner las lentejas en una olla grande con 1,6 litros de agua fría (es posible que durante la cocción haya que añadir más, pero mejor empezar con esta cantidad).</li>
+        <li>Añadir media cebolla entera, el ajo, el laurel, pimienta negra y sal.</li>
+        <li>Arrancar el sofrito picando la otra media cebolla y el pimiento. Ponerlo con un buen chorro de aceite y una pizca de sal en una sartén a fuego medio bajo para que se vaya pochando.</li>
+        <li>A los cinco o 10 minutos, cuando la cebolla y el pimiento se hayan ablandado, añadir el tomate.</li>
+        <li>Pelar la patata y cortarla en dados o trozos pequeños. Pelar la zanahoria y cortarla en rodajas finas. Añadirlas a las lentejas cuando estas lleven unos 20 minutos cocinándose.</li>
+        <li>Añadir el pimentón y el comino al sofrito y remover un minuto. Si se quiere, incorporar el vino blanco o jerez otro minuto o hasta que deje de oler a alcohol.</li>
+        <li>Juntar el sofrito con la media cebolla y el ajo de las lentejas en un vaso batidor. Triturar y sumarlo a la olla de las lentejas, remover y cocer un par de minutos más. Corregir de sal.</li>
+    </ol>
+</body>
+</html>

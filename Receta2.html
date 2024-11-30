@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Recepta de Ceviche</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+    ol {
+            list-style: none;
+            counter-reset: item; 
+        }
+
+        ol li {
+            counter-increment: item; 
+            margin-bottom: 10px; 
+        }
+
+        ol li::before {
+            content: counter(item) ". ";
+            font-weight: bold; 
+        }
+</style>
+</head>
+<body>
+    <h1 style="color: #ad3434;">Recepta de ceviche de <a href="index.html">lista de recetas</a> hecha por Juan Miguel</h1>
+    <img src="ceviche1.jpg" alt="Ceviche" />
+
+    <h2>Indice</h2>
+    <ul>
+        <li class="clase"><a href="#Descripcion">Descripcion.</a></li>
+        <li class="clase"><a href="#Ingredientes">Ingredientes.</a></li>
+        <li class="clase"></liclass><a href="#Instrucciones">Instrucciones.</a></li>
+    </ul>
+
+    <h2 id="Descripcion">Descripcion.</h2>
+    <p>El ceviche es esencialmente una ensalada de pescado crudo picante con sal, ajo, cebollas y pimientos peruanos picantes, todo mezclado y marinado en lima. La lima desnaturaliza la proteína, dando al pescado una textura ligeramente cocida. El ceviche también es conocido como seviche de farro.</p>
+    <h2 id="Ingredientes">Ingredientes</h2>
+    <ul class="Ingredientes">
+        <li>1 kilogramo de pescado blanco fresco.</li>
+        <li>1 kilogramo de lomo ancho.</li>
+        <li>6 limas</li>
+        <li>2 cebolladas moradas.</li>
+        <li>2 cucharadas de cilantro fresco.</li>
+        <li>1 cucharata de aji amarillo.</li>
+        <li>Sal</li>
+        <li>Pimienta blanca.</li>
+        <li>Maiz choclo.</li>
+        <li>1 boniato.</li>
+
+    </ul>
+
+    <h2 id="Instrucciones">Instrucciones.</h2>
+    <ol class="Instrucciones">
+        <li>Comenzamos con la guarnición, lavamos bien el boniato y lo cocemos 20 minutos a fuego medio, desde que empiece a hervir el agua. Lo pinchamos para comprobar que está blando en su interior. Quitamos del agua y reservamos.</li>
+        <li>En un cazo aparte, cocemos la mazorca de maíz choclo durante 10 minutos, si no encontráis maíz choclo fresco podéis emplear seco. Aunque debéis dejarlo en remojo con una buena medida de agua durante toda la noche. El maíz debe quedar tierno, podemos probarlo para ver como va en la cocción. Reservamos.</li>
+        <li>Cortamos las limas por la mitad y las tenemos lista para exprimir. Con una de ellas frotamos el bol donde vamos a preparar el cebiche. Añadimos al bol o fuente la corvina, añadimos unos cubitos de hielo, para que el pescado esté lo más frío posible durante el máximo tiempo posible.</li>
+        <li>Añadimos sal fina (al gusto), pimienta blanca recién molida y el rocoto finamente picado sin pepitas (si no lo encontráis podéis emplear chile o ají amarillo). En la mayoría de establecimientos latinos podéis encontrar roco y ají amarillo congelado, o bien estos en pasta. Os recomiendo que le deis ese punto picante, es la gracia de nuestro cebiche.</li>
+        <li>Exprimimos las limas sobre el bol donde tenemos nuestros ingredientes. Siempre con la mano evitando que caigan las pepitas y exprimiéndolas sólo hasta la mitad para que no se amargue. Siempre en cualquier elaboración con limón o limas debemos exprimir a mano y con suavidad para que el zumo no amargue, nada de exprimidores eléctricos o manuales.</li>
+        <li>Removemos 1 minuto hasta que esté todo bien integrado. Cuando el pescado comienza a tomar color probar de sabor y rectificar de sal si es necesario. El pescado se irá cocinando con el cítrico, y comprobaremos que su carne va blanqueando, el ácido cítrico de las limas modificará las proteínas del pescado para dejarlas en su punto. Soltando todo su jugo, la famosa leche de tigre.</li>
+        <li>Cortamos el cilantro muy fino, suavemente para no machacarlo y añadimos. Quitamos los cubitos de hielo del bol. El último paso será cortar la cebolla morada en juliana fina. La dividimos por la mitad.</li>
+        <li>Retiramos la capa exterior, colocamos la mitad sobre la tabla y hacemos los cortes delgados. Una vez cortada, la lavamos muy bien sobre un colador para quitarle el amargor. Para que la cebolla no quede pocha sino más bien crocante, la añadimos directamente a nuestro cebiche en el último momento antes de servir.</li>
+    </ol>
+</body>
+</html>
